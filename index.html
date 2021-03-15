@@ -8,9 +8,13 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script defer src="index.js"></script>
+    <script defer src="menu.js"></script>
 </head>
 <body>
     <header>
+        <div class="topheader">
+           <span>Call Us: <a href="tel:123456789">XXXXXXXX</a> </span> 
+        </div>
         <div class="banner">
             <div class="main-image">
                 <img src="assets/img/dasbanner.jpg" alt="">
@@ -20,26 +24,33 @@
                 </div>
             </div>
         </div>
-        <nav>
-            <ul>
-               <a href="index.html"><li>Home</li> </a> 
+        <nav >
+            <ul class="topnav responsive" id="myTopNav" >
+                <a href="javascript:void(0);" class="hammenu" onclick="myFunction()">
+                    Logo
+                    <i class="fa fa-bars"  ></i>
+                </a>
+                <a href="index.html"><li>Home</li> </a> 
                 <a href="projects.html"><li>Projects</li></a>
                 <a href="services.html"><li>Services</li></a>
                 <a href="aboutus.html"><li>About Us</li> </a>
                 <a href="contact.html"><li>Contact</li></a>
+                
             </ul>
         </nav>
     </header>
     
     <section class="bg-shapes-left">
         
-        <!-- <div class="bg-shapes-left"></div> -->
-        <!-- <div class="bg-shapes-right"></div>           -->
-
         <div class="sub-head">
             <h1>Das Events</h1>
             <p>
-                When there is an upcoming event to be planned, every detail must be taken into account, big or small. Established in 2019, owned and operated by Mr. Parimal Das, Das Events Service is a one stop solution to the freedom of your anxieties triggered by any event. However enthusiastic you are, your mind gets tired and weary of planning an event. That's when Das Events Service comes to your rescue. We are just a call away to respond to all your event related requirements. We are reachable, reliable and responsible. Our team is made up of experienced and professional consultants who will create an extraordinary event experience for you. 
+                When there is an upcoming event to be planned, every detail must be taken into account, big or small. 
+                Established in 2019, owned and operated by Mr. Parimal Das, Das Events Service is a one stop solution to the freedom of your anxieties triggered by any event. 
+                However enthusiastic you are, your mind gets tired and weary of planning an event. 
+                That's when Das Events Service comes to your rescue. We are just a call away to respond to all your event related requirements. 
+                We are reachable, reliable and responsible. 
+                Our team is made up of experienced and professional consultants who will create an extraordinary event experience for you. 
             </p>
         </div>
         
@@ -121,9 +132,7 @@
     <div class="big-content">
         <div class="big-content-p">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab maiores minus laboriosam, perspiciatis modi quo, sunt, odit minima similique odio quam! At modi culpa voluptas libero iste ut saepe hic! 
-            nis quasi reprehenderit dignissimos eius ut minus nesciunt. Delectus distinctio iste expedita, necessitatibus nulla odio ipsam?
-            nis quasi reprehenderit dignissimos eius ut minus nesciunt. Delectus distinctio iste expedita, necessitatibus nulla odio ipsam?
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur magni quis voluptatibus corrupti optio pariatur expedita adipisci ut. Iure, doloremque ut molestias rerum accusantium repellat iusto. Itaque nostrum ea aliquid.
+            nis quasi reprehendt amet consectetur, adipisicing elit. Aspernatur magni quis voluptatibus corrupti optio pariatur expedita adipisci ut. Iure, doloremque ut molestias rerum accusantium repellat iusto. Itaque nostrum ea aliquid.
             </p>
         </div>
     </div>
@@ -148,11 +157,10 @@
                 <a href="https://www.twitter.com/"><i class="fa fa-twitter"></i></a>
                 <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
             </div>
-            
         </div>
         <div class="address">
             <h1>Find us here</h1>
-            <p>Siliuri, West Bengal, Dist-Darjeeling, PO: 734001</p>
+            <p>Rabindranagar Rd, Belda Road, <br> Medinipur - 721424</p>
         </div>
        </div>
        <div class="copyrights">
@@ -160,5 +168,6 @@
         <p>&nbsp; Designed and Developed By: <a href="www.bluewebsurfer.com">BlueWeb Surfer</a></p>
     </div>
     </footer>
+    
 </body>
 </html>

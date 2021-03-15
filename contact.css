@@ -1,5 +1,5 @@
 .contact-us{
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
 }
 .contact-us p{
@@ -61,4 +61,18 @@ input[type=text], select, textarea {
     border-radius: 5px;
     padding: 20px;
   margin-bottom: 20px;
+  }
+  @media (max-width:480px){
+    .contact-us p{
+      float: none;
+      width: 100%;
+      box-shadow: none;
+    }
+    .container{
+      background:rgb(221, 221, 221);
+width: 100%;
+margin-left: 0;
+margin-right: 0;
+/* background-color: rgba(145, 145, 145, 0.418); */
+    }
   }
