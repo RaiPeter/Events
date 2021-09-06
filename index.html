@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="public/assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script defer src="index.js"></script>
-    <script defer src="menu.js"></script>
+    <script defer src="public/assets/js/index.js"></script>
+    <script defer src="public/assets/js/menu.js"></script>
+    <!-- <script  src="menu.js"></script> -->
 </head>
 <body>
     <header>
@@ -17,27 +18,26 @@
         </div>
         <div class="banner">
             <div class="main-image">
-                <img src="assets/img/dasbanner.jpg" alt="">
+                <img src="public/assets/img/dasbanner.jpg" alt="">
                 <div class="das-events">
                     <h1>Das</h1>
                     <h1>Events</h1>
                 </div>
             </div>
         </div>
-        <nav >
-            <ul class="topnav responsive" id="myTopNav" >
-                <a href="javascript:void(0);" class="hammenu" onclick="myFunction()">
-                    Logo
-                    <i class="fa fa-bars"  ></i>
+        <nav class="mynav" id="myId">
+            <ul>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    Das Events
+                    <i class="fa fa-bars"></i>
                 </a>
-                <a href="index.html"><li>Home</li> </a> 
-                <a href="projects.html"><li>Projects</li></a>
-                <a href="services.html"><li>Services</li></a>
+                <a href="index.html"> <li>Home</li></a> 
+                <a href="projects.html"> <li>Projects</li></a>
+                <a href="services.html"> <li>Services</li></a>
                 <a href="aboutus.html"><li>About Us</li> </a>
-                <a href="contact.html"><li>Contact</li></a>
-                
+                <a href="contact.html"><li>Contact</li></a>              
             </ul>
-        </nav>
+            </nav>
     </header>
     
     <section class="bg-shapes-left">
@@ -51,31 +51,68 @@
                 That's when Das Events Service comes to your rescue. We are just a call away to respond to all your event related requirements. 
                 We are reachable, reliable and responsible. 
                 Our team is made up of experienced and professional consultants who will create an extraordinary event experience for you. 
+                <br>
+               <div style="text-align: center;width: 60%;margin: auto;">
+                5 C's of event management are taken into consideration and paid close attention while we handle any
+                event. <br> They are Concept, Co ordination, Control, Culmination and Close out.
+               </div>
             </p>
         </div>
         
         <div class="body">
             <div class="body-img">
-                <img src="assets/img/dasbanner.jpg" alt="">
+                <img src="public/assets/img/dasbanner.jpg" alt="">
             </div>
             <div class="body-content">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique atque modi officia totam perspiciatis molestias praesentium corporis fugit quibusdam ipsa ipsam dolore porro debitis eum est, aliquid enim quae repellat.</p>
+                <p>Concept: Event concept is the most essential part of event management. It is very essential for us to get
+                    the concept of the cutomer clear in our head. It is essential to understnd the vision of the customer and
+                    make it come true which is possible only by paying close attention to details.</p>
             </div>
         </div>
         <div class="body reverse">
             <div class="body-img">
-                <img src="assets/img/wedding-decorations-pondicherry(59).jpg" alt="">
+                <img src="public/assets/img/wedding-decorations-pondicherry(59).jpg" alt="">
             </div>
             <div class="body-content">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique atque modi officia totam perspiciatis molestias praesentium corporis fugit quibusdam ipsa ipsam dolore porro debitis eum est, aliquid enim quae repellat.</p>
+                <p>Co ordination: Once the event has ben conceptualized, it is time t execute it. Selecting a venue,
+                    preparing the menu, and the need for other decoratives are taken care of. The venue needs to be
+                    booked much in advance. The event manager delegates tasks to the rest of the team players. The
+                    manager is in charge of proper communication and co ordination among the staffs so that the event is
+                    properly guided to be a successful one.</p>
             </div>
         </div>
         <div class="body">
             <div class="body-img">
-                <img src="assets/img/IMG_20200710_120605.jpg" alt="">
+                <img src="public/assets/img/IMG_20200710_120605.jpg" alt="">
             </div>
             <div class="body-content">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique atque modi officia totam perspiciatis molestias praesentium corporis fugit quibusdam ipsa ipsam dolore porro debitis eum est, aliquid enim quae repellat.</p>
+                <p>Control: We do our best to ensure that the event glides on smoothly without any glitches. However ,last
+                    moment emergencies may crop up due to unforseen circumstances. We take care of it with the help of
+                    our best professional team mates. We have the capability to work under pressure. We want our
+                    customers to enjoy their special events without fretting over any small or major issues.</p>
+            </div>
+        </div>
+        <div class="body reverse">
+            <div class="body-img">
+                <img src="public/assets/img/pexels-pham-hoang-kha-3347413.jpg" alt="">
+            </div>
+            <div class="body-content">
+                <p>Culmination: When your special event day approaches, we make sure,we help it culminate exactly the
+                    way you envisioned in your mind. Every detail like the placing of the decors, the ambience of the
+                    venue, making sure there are enough number of chairs for the guests, the sitting arrangements, are
+                    thought upon and executed with finesse.</p>
+            </div>
+        </div>
+        <div class="body">
+            <div class="body-img">
+                <img src="public/assets/img/pexels-freestocksorg-70737.jpg" alt="">
+            </div>
+            <div class="body-content">
+                <p>Close out:Our work and responsibility does not end with the event and the guests returning home. We
+                    make sure all the vendors and suppliers are paid and all the contracts with them are terminated. All the
+                    decors are returned, the staffs are given feedback and if any issues are there, they are addressed right
+                    away. The pickups are arranged to send back the tents and furnitures and the venue is cleaned and left
+                    spotless.</p>
             </div>
         </div>
 
@@ -85,19 +122,19 @@
     <!-- Full-width images with number and caption text -->
     <div class="mySlides fade">
       <!-- <div class="numbertext">1 / 3</div> -->
-      <img src="assets/img/khadija-yousaf-lKwp3-FQomY-unsplash.jpg" style="width:100%">
+      <img src="public/assets/img/khadija-yousaf-lKwp3-FQomY-unsplash.jpg" style="width:100%">
       <!-- <div class="text">Caption Text</div> -->
     </div>
   
     <div class="mySlides fade">
       <!-- <div class="numbertext">2 / 3</div> -->
-      <img src="assets/img/e088c1e5b5d54f53e31a05f992170328.jpg" style="width:100%">
+      <img src="public/assets/img/e088c1e5b5d54f53e31a05f992170328.jpg" style="width:100%">
       <!-- <div class="text">Caption Two</div> -->
     </div>
   
     <div class="mySlides fade">
       <!-- <div class="numbertext">3 / 3</div> -->
-      <img src="assets/img/IMG_20200710_120605.jpg" style="width:100%">
+      <img src="public/assets/img/IMG_20200710_120605.jpg" style="width:100%">
       <!-- <div class="text">Caption Three</div> -->
     </div>
   
@@ -119,10 +156,12 @@
 <br><br><br><br>
     <div class="big-banner">
         <div class="big-banner-img">
-            <img src="assets/img/IMG-20200902-WA0006.jpg" alt="">
+            <img src="public/assets/img/IMG-20200902-WA0006.jpg" alt="">
         </div>
         <div class="big-banner-content">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam dolorem perspiciatis hic, nobis debitis labore ipsam veniam architecto in temporibus, ea nostrum asperiores officiis laborum? Praesentium corporis architecto eligendi error.</p>
+            <p>Pre wedding shoot, enegagement shoot are arranged by us so that the memories of your special day are
+                captured in a special way. We co ordinate with the style and makeup artists so who will make you look
+                splendid.</p>
         </div>
     </div>
     <div class="section left">
@@ -131,15 +170,19 @@
 
     <div class="big-content">
         <div class="big-content-p">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab maiores minus laboriosam, perspiciatis modi quo, sunt, odit minima similique odio quam! At modi culpa voluptas libero iste ut saepe hic! 
-            nis quasi reprehendt amet consectetur, adipisicing elit. Aspernatur magni quis voluptatibus corrupti optio pariatur expedita adipisci ut. Iure, doloremque ut molestias rerum accusantium repellat iusto. Itaque nostrum ea aliquid.
-            </p>
+            <p>At Das Events Service, we understand, that the event is equally important for your family and guests as it
+                is for you. That is why our aim is to make it memorable not only for you but for all your loved ones too.
+                Come to us for having an event which reminds you not of the stress of organizing it, but of the cherishing
+                moments of your special day.</p>
         </div>
     </div>
   
     <div class="small-content">
         <div class="small-content-p">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque molestias vero necessitatibus veritatis, quisquam iure doloremque inventore assumenda sequi velit at in, delectus labore voluptates numquam architecto perferendis, amet quo.</p>
+            <p>Besides the services mentioned above, we are mindful of the safety and security of the guests. Specially
+                during the time of pandemic, our Emergency Response team responds quickly to any human, medical or
+                nature caused emergencies.</p>
+                <p>Our office working hours are from Sunday to Monday from 9am to 9:30pm.</p>
         </div>
     </div>
 
@@ -170,4 +213,5 @@
     </footer>
     
 </body>
+
 </html>

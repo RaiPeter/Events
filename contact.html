@@ -4,37 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="public/assets/css/contact.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="public/assets/css/style.css">
+    <script defer src="public/assets/js/menu.js"></script>
     <title>Document</title>
 </head>
 <body>
     <header>
+        <div class="topheader">
+            <span>Call Us: <a href="tel:123456789">XXXXXXXX</a> </span> 
+         </div>
         <div class="banner">
             <div class="main-image">
-                <img src="assets/img/dasbanner.jpg" alt="">
+                <img src="public/assets/img/dasbanner.jpg" alt="">
                 <div class="das-events">
                     <h1>Das</h1>
                     <h1>Events</h1>
                 </div>
             </div>
         </div>
-        <nav>
+        <nav class="mynav" id="myId">
             <ul>
-               <a href="index.html"><li>Home</li> </a> 
-                <a href="projects.html"><li>Projects</li></a>
-                <a href="services.html"><li>Services</li></a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    Das Events
+                    <i class="fa fa-bars"></i>
+                </a>
+                <a href="index.html"> <li>Home</li></a> 
+                <a href="projects.html"> <li>Projects</li></a>
+                <a href="services.html"> <li>Services</li></a>
                 <a href="aboutus.html"><li>About Us</li> </a>
-                <a href="contact.html"><li>Contact</li></a>
+                <a href="contact.html"><li>Contact</li></a>              
             </ul>
-        </nav>
+            </nav>
     </header>
 
     <section class="bg">
         <div class="contact-us">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque deleniti possimus veniam quibusdam doloribus quis,Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eum, voluptatem, aspernatur tempora repellat qui possimus veniam reiciendis doloremque ipsam officiis, dolorum sint harum porro reprehenderit ex assumenda architecto quos!
-                 exercitationem sit laborum quasi nesciunt corporis illo assumenda, voluptatem nemo, iste quidem perferendis accusantium amet!</p>
+            <p>At Das Events Service, we understand, that the event is equally important for your family and guests as it
+                is for you. That is why our aim is to make it memorable not only for you but for all your loved ones too.
+                Come to us for having an event which reminds you not of the stress of organizing it, but of the cherishing
+                moments of your special day.</p>
         </div>
         <div class="container">
             <form action="action_page.php">
