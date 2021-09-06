@@ -52,7 +52,8 @@ header .banner .main-image{
     height: 650px;
     /* border: 1px solid red; */
     /* border: 1px solid green; */
-    margin-top: 100px;
+    /* margin-top: 100px; */
+    bottom: -180px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -422,7 +423,8 @@ color:rgb(62 62 62) ;
   header .banner .main-image{
     width: 70%;
     height: 300px;
-    margin-top: 100px;
+    /* margin-top: 100px; */
+    bottom: -90px;
   }
   header .banner .main-image img{
     width: 100%;
